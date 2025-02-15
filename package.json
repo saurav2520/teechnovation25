@@ -1,0 +1,11 @@
+
+{
+  "homepage": "https://saurav2520.github.io/technovation25",
+  "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
